@@ -1,0 +1,10 @@
+Query a count of the number of cities in CITY having a Population larger than 100000.
+
+The CITY table is described as follows:
+
+solution:
+
+select COUNT(population)
+from city
+where population>100000;
+
